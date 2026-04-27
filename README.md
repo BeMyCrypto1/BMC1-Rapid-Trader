@@ -81,15 +81,15 @@ text
                     ██████╔╝██║ ╚═╝ ██║╚██████╔╝██║
                     ╚═════╝ ╚═╝     ╚═╝ ╚═════╝ ╚═╝
 
-[B] BUY     [S] SELL     [X] EXIT
+                        [B] BUY     [S] SELL     [X] EXIT
+                        
+                        Balance: $50.00      P&L: $+0.00       ROI: +0.00%
+                        Trades:    0         Win Rate: 0.0%    W/L: 0W/0L
+                        Position: CLOSED
+                        
+                        Live Feed: $79123.45    ▲ +12.30 (+0.0155%)
 
-Balance: $50.00      P&L: $+0.00       ROI: +0.00%
-Trades:    0         Win Rate: 0.0%    W/L: 0W/0L
-Position: CLOSED
-
-Live Feed: $79123.45    ▲ +12.30 (+0.0155%)
-
-Last Trade: Ready
+                        Last Trade: Ready
                 ⚠️ First-Time Setup
                 When you first run the EXE, Windows SmartScreen may show a warning:
 
