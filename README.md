@@ -107,9 +107,9 @@ If you find this tool useful, consider supporting development:
 
         Network	Addresses:
 
-                Polygon/Eth	0x4753BeAa5F9333fa9D8f25d26BE425Ed2D9293a0
-                Solana	        Cqzbc6QAvLF7AnETWM3Hj1y4KG87YBCd8LW7MxbEpXw9
-                Bitcoin	        bc1qh6vxqxw4lezz5dfxc05ce3q3qw742xenkgzu4s
+                Polygon/Eth        0x4753BeAa5F9333fa9D8f25d26BE425Ed2D9293a0
+                Solana             Cqzbc6QAvLF7AnETWM3Hj1y4KG87YBCd8LW7MxbEpXw9
+                Bitcoin	           bc1qh6vxqxw4lezz5dfxc05ce3q3qw742xenkgzu4s
 
 
 📋 System Requirements
