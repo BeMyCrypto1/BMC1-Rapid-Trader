@@ -23,39 +23,31 @@
 
 ## 📥 Download & Installation
 
-### Option 1: Download EXE (No Python Required)
-1. Go to **Releases** section
-2. Download `BMC1_Trader.exe` and `BMC1_DataFeed.exe`
-3. Place both files in the same folder
-4. Double-click to run
+###  Download EXE (No Python Required)
+        1. Go to **Releases** section
+        2. Download `BMC1_Trader.exe` and `BMC1_DataFeed.exe`
+        3. Place both files in the same folder
+        4. Double-click to run
 
-### Option 2: Run from Source (Python Required)
-        ```bash
-                git clone https://github.com/BeMyCrypto1/BMC1-Rapid-Trader.git
-                cd BMC1-Rapid-Trader
-                pip install requests
-                python BMC1_ManualTrader.py
-
-### Option 3: Build EXE Yourself
-bash 
-        pip install pyinstaller
-        pyinstaller --onefile --name "BMC1_Trader" --console BMC1_ManualTrader.py
-        pyinstaller --onefile --name "BMC1_DataFeed" --console BMC1_DataFeed.py
-
-     
+    
 ### 🎮 How to Use
 1. Start the Data Feed (Watch Prices)
-text
-        Double-click: BMC1_DataFeed.exe
-        Shows live BTC price updates
 
-* Displays last 20 price movements *
+               Double-click: BMC1_DataFeed.exe
+               Shows live BTC price updates
+
+* It Displays last 20 price movements *
 
 All data saved to data/price_history.json
 
 2. Start the Trader (Execute Trades)
-text
-        Double-click: BMC1_Trader.exe
+
+           -Double-click on executable file to initiate the Dashboard Trader:
+                   BMC1_Trader.exe
+   
+           -Use Keyboard keys to control your trading.
+            A Simple single key strike will do as shown below:
+   
                 Key	Action
                 B	BUY at current price
                 S	SELL at current price
@@ -68,9 +60,9 @@ text
                         ├── BMC1_Trader.exe
                         ├── BMC1_DataFeed.exe
                         └── data/
-                            ├── trader_state.json      ← Current balance & position
-                            ├── trade_history.json     ← Complete trade history
-                            └── price_history.json     ← All price feed data
+                            ├── trader_state.json      ← Current balance & position are saved here
+                            ├── trade_history.json     ← Complete trade history entries/exits are here
+                            └── price_history.json     ← All price feed data from Live feeds are here
 
 📊 Sample Display
 
@@ -90,17 +82,28 @@ text
                         Live Feed: $79123.45    ▲ +12.30 (+0.0155%)
 
                         Last Trade: Ready
-                ⚠️ First-Time Setup
-                When you first run the EXE, Windows SmartScreen may show a warning:
+                
+                
+  ⚠️ First-Time Setup
+     When you first run any of the aboeve EXE files, Windows SmartScreen may show a warning as follows:
 
-text
-Windows protected your PC
-Solution:
+        BMC1 Disclaimer:
+        Windows protects your PC when any EXE file is ran that was created under a different OS system.
+        While its purpose is right. Our Company BMC1 is not designing projects with no intentions to 
+        create said project files with evil intentions to steal, data mine your personal information
+        nor create any OS issues to damage/steal your personal data in any ways or forms. So, if any
+        issues arise in your OS system, or data bugs after using our projects here or any of our projects
+        from Our Company BMC1 are not responsable of any the source of such issues/damages you may experience
+        while using them or any of our projects in our GitHub Repository Accounts. 
+        ENjoy and have Fun... Thanks and God Bless!.
 
-        Click "More info"
-        Click "Run anyway"
-        This is normal for new executables. 
-        The code is open source and safe.
+        Do your own research for these matter when using any of our projects. 
+        
+        Solution:
+                Click "More info"
+                Click "Run anyway"
+                This is normal for new executables. 
+                The code is open source and safe.
 
 ### 💰 Support the Project
 If you find this tool useful, consider supporting development:
@@ -135,4 +138,10 @@ MIT License - Free for personal and commercial use
 
         Press B to Buy, S to Sell, X to Exit
 
-### Happy Trading! 🎯
+### Happy Learning How to Live Trading! 🎯
+
+### NOTES 
+        THE REAL LIVE-BTC TRADER PROJECT IS BEING DEVELOPED, SO STAY TUNED!.
+        Also show your love is you are enjoying learning how to live trading
+        retro style approach. Also the above file would not work on Mobile
+        (Android or Apple) so only on PC/Laptops option at this moment
